@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap_contact {
+  background: url(../img/background_contact.png) no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.container {
+  height: 100%;
+  width: 78%;
+}
+
+.contact_title {
+
+  font-size: 90px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  margin: 9% 0 4%;
+}
+
+.contact_text {
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+  margin-bottom: 50px;
+}
+
+.title_address,
+.title_email,
+.title_phone {
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.text_address,
+.text_email,
+.text_phone {
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.cell,
+.line {
+  height: 50px;
+  width: 80%;
+  margin-bottom: 20px;
+
+}
+
+.message::placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+
+}
+
+.cell::placeholder {
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.user_name::placeholder {
+  background: #00c4c4;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.user_name {
+  background: #00c4c4;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+
+.footer_row {
+  min-height: 100px;
+  height: 10.5%;
+}
+
+.user_email,
+.user_phone_number,
+.message {
+  background: #00c4c4;
+  opacity: 0.5;
+  font-size: 15px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+}
+
+.message {
+  height: 250px;
+  width: 80%;
+  margin-bottom: 10.5%;
+}
+
+.footer {
+  min-height: 100px;
+  height: 10.5%;
+  background: #262626;
+  color: #b9b9b9;
+  display: flex;
+}
+
+.love {
+  color: #ff2b58;
+}
